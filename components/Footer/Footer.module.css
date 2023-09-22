@@ -1,0 +1,69 @@
+.footer {
+  background-color: #1f1f1f;
+
+  color: whitesmoke;
+  padding: 2rem 1rem;
+
+  position: absolute;
+  width: 100%;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.companyInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.phoneInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+.emailInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+.adressInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+.icons {
+  font-size: 2rem;
+  display: flex;
+  gap: 2rem;
+
+  padding: 1rem 0 2rem 0;
+}
+.devider {
+  height: 2px;
+  background-color: whitesmoke;
+  width: 50%;
+}
+.rightsReserved {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+@media (min-width: 1080px) {
+  .companyInfo {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 10px;
+  }
+}

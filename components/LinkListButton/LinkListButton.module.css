@@ -1,0 +1,14 @@
+.LinkListButton {
+  color: whitesmoke;
+
+  font-size: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.LinkListButton:hover {
+  border-bottom: 1px solid whitesmoke;
+}

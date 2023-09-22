@@ -1,0 +1,16 @@
+.menuButton {
+  display: flex;
+  align-content: center;
+
+  outline: 1px solid whitesmoke;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.menuButton:hover {
+  outline: 2px solid whitesmoke;
+}
+
+.menuButton:focus {
+  outline: 2px solid whitesmoke;
+}

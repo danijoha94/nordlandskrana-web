@@ -1,0 +1,89 @@
+.main {
+  color: whitesmoke;
+}
+
+.imageContainer {
+  max-height: 430px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+
+  min-width: 50%;
+}
+
+.articleContent {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.image {
+  height: auto;
+  position: relative !important;
+
+  border-radius: 0.5rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 0 2rem;
+}
+
+.articleTitle {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.articleReadMoreButton {
+  outline: 1px solid whitesmoke;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 4rem;
+
+  margin: 2rem 0;
+}
+
+.articleReadMoreButton:hover {
+  outline: 2px solid whitesmoke;
+}
+
+@media (min-width: 1080px) {
+  .image {
+    align-self: center;
+    max-width: 700px;
+  }
+
+  .article {
+    flex-direction: row;
+    padding-bottom: 10rem;
+
+    gap: 3rem;
+  }
+
+  .articleTitle {
+    font-size: 4rem;
+  }
+
+  .articleIntro {
+    font-size: 2rem;
+    line-height: 28px;
+  }
+
+  .articleReadMoreButton {
+    font-size: 1.5rem;
+    line-height: 28px;
+  }
+
+  .article:nth-child(odd) {
+    justify-content: flex-end;
+  }
+
+  .article:nth-child(odd) .articleContent {
+    order: 1;
+  }
+  .article:nth-child(odd) .imageContainer {
+    order: 2;
+  }
+}
