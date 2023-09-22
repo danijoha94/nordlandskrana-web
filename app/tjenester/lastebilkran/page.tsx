@@ -18,7 +18,7 @@ export default function Truckcrane() {
   return (
     <main>
       <div className={styles.pageHeader}>
-        <Link className={styles.servicesLink} href="/Tjenester">
+        <Link className={styles.servicesLink} href="/tjenester">
           Tjenester
         </Link>
         <h2 className={styles.headerText}>Lastebilkran</h2>

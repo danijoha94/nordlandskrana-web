@@ -15,15 +15,15 @@ export default function MenuModal(props: Props) {
   const linkList = [
     {
       label: "Tjenester",
-      url: "/Tjenester",
+      url: "/tjenester",
     },
     {
       label: "Om oss",
-      url: "/Om-oss",
+      url: "/om-oss",
     },
     {
       label: "Kontakt",
-      url: "/Kontakt",
+      url: "/kontakt",
     },
   ];
 

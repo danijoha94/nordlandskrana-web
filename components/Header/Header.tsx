@@ -14,9 +14,9 @@ export default function Header() {
   const pathname = usePathname();
 
   const activePath = {
-    services: pathname === "/Tjenester",
-    about: pathname === "/Om-oss",
-    contact: pathname === "/Kontakt",
+    services: pathname === "/tjenester",
+    about: pathname === "/om-oss",
+    contact: pathname === "/kontakt",
   };
 
   const toggleModal = () => {
@@ -41,23 +41,23 @@ export default function Header() {
             <Link
               className={styles.navigationLink}
               data-active={activePath.services}
-              href="/Tjenester"
+              href="/tjenester"
             >
               Tjenester
             </Link>
             <Link
               className={styles.navigationLink}
-              href="/Om-oss"
+              href="/om-oss"
               data-active={activePath.about}
             >
               Om oss
             </Link>
             <Link
               className={styles.navigationLink}
-              href="/Kontakt"
+              href="/kontakt"
               data-active={activePath.contact}
             >
-              Kontakt
+              kontakt
             </Link>
           </nav>
         </div>

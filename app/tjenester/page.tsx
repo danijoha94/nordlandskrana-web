@@ -8,19 +8,19 @@ export default function Services() {
       img: "/images/mobilkran.webp",
       title: "Mobilkran",
       intro: "Skal du opperere i høyden?",
-      readMoreUrl: "/Tjenester/Mobilkran",
+      readMoreUrl: "/tjenester/mobilkraner",
     },
     {
       img: "/images/trekkvogn-croped.jpg",
       title: "Trekkvogn",
       intro: "Frakter det meste, til de fleste steder",
-      readMoreUrl: "/Tjenester/Trekkvogn",
+      readMoreUrl: "/tjenester/trekkvogn",
     },
     {
       img: "/images/lastebilkran-croped.jpg",
       title: "Lastebilkran",
       intro: "Løft og transport, lett tilgjengelig",
-      readMoreUrl: "/Tjenester/Lastebilkran",
+      readMoreUrl: "/tjenester/lastebilkran",
     },
   ];
   return (

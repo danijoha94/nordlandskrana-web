@@ -40,7 +40,7 @@ export default function Mobilecrane() {
   return (
     <main>
       <div className={styles.pageHeader}>
-        <Link className={styles.servicesLink} href="/Tjenester">
+        <Link className={styles.servicesLink} href="/tjenester">
           Tjenester
         </Link>
         <h2 className={styles.headerText}>Mobilkraner</h2>
