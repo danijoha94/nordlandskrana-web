@@ -1,5 +1,14 @@
 .main{
     display: flex;
     justify-content: center;
-    padding: 2rem 5rem;
+    padding: 0.5rem 0.5rem;
+}
+
+
+@media (min-width: 1080px) {
+    .main{
+        display: flex;
+        justify-content: center;
+        padding: 2rem 5rem;
+    }
 }
