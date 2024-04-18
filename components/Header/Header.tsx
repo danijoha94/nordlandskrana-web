@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
-import DesktopSearchBar from "../DesktopSearchBar/DesktopSearchBar";
 import MenuButton from "../MenuButton/MenuButton";
 import MenuModal from "../MenuModal/MenuModal";
 import styles from "./Header.module.css";
@@ -28,12 +27,15 @@ export default function Header() {
   return (
     <>
       <header className={styles.header}>
-        <Link href="/">
+        <Link
+          href="/"
+          className={pathname !== "/" ? "" : styles.headerLogoHide}
+        >
           <Image
             src="/images/logo.png"
             alt="Company logo"
-            width={150}
-            height={110}
+            width={100}
+            height={74}
           />
         </Link>
         <div className={styles.desktopMenu}>

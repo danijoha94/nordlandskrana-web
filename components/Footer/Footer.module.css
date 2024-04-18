@@ -2,7 +2,7 @@
   background-color: #1f1f1f;
 
   color: whitesmoke;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
 
   position: absolute;
   width: 100%;
@@ -11,6 +11,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  /*Prevent menu modal from hiding footer*/
+  z-index: 1;
 }
 
 .companyInfo {
@@ -47,7 +50,7 @@
   display: flex;
   gap: 2rem;
 
-  padding: 1rem 0 2rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 .devider {
   height: 2px;
@@ -55,7 +58,7 @@
   width: 50%;
 }
 .rightsReserved {
-  padding-top: 2rem;
+  padding-top: 1rem;
   text-align: center;
 }
 

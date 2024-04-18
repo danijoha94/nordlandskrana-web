@@ -1,8 +1,6 @@
 import Image from "next/image";
 import LinkListButton from "../LinkListButton/LinkListButton";
 import MenuButton from "../MenuButton/MenuButton";
-import NkIcon from "../NkIcon/NkIcon";
-import MobileSearchBar from "../MobileSearchBar/MobileSearchBar";
 import styles from "./MenuModal.module.css";
 
 interface Props {
@@ -34,8 +32,8 @@ export default function MenuModal(props: Props) {
           <Image
             src="/images/logo.png"
             alt="Company logo"
-            width={150}
-            height={110}
+            width={100}
+            height={74}
           />
         </a>
         <MenuButton type="close" onClick={handleClose} />

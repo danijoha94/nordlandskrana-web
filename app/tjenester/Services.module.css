@@ -40,7 +40,7 @@
   outline: 1px solid whitesmoke;
   padding: 0.5rem 1rem;
   width: fit-content;
-  border-radius: 4rem;
+  border-radius: 8px;
 
   margin: 2rem 0;
 }
@@ -52,7 +52,7 @@
 @media (min-width: 1080px) {
   .image {
     align-self: center;
-    max-width: 700px;
+    max-width: 500px;
   }
 
   .article {
@@ -63,11 +63,11 @@
   }
 
   .articleTitle {
-    font-size: 4rem;
+    font-size: 3rem;
   }
 
   .articleIntro {
-    font-size: 2rem;
+    font-size: 1rem;
     line-height: 28px;
   }
 

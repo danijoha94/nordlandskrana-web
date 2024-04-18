@@ -9,8 +9,8 @@ export default function Footer() {
         <Image
           src="/images/logo.png"
           alt="Company logo"
-          width={150}
-          height={110}
+          width={100}
+          height={74}
         />
         <div className={styles.phoneInfo}>
           <a href="tel:004775528688">Tlf: +47 755 28 688</a>

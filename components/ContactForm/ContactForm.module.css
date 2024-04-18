@@ -1,0 +1,97 @@
+.contactForm{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    max-width: 400px;
+}
+
+.label{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 0;
+    font-size: 16px;
+
+}
+
+.input{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+}
+
+.textarea{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    height: 8rem;
+    max-width: 400px;
+}
+
+.fileInpunt{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fileInpunt::file-selector-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5rem;
+  }
+
+  .fileInpunt::file-selector-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.sendButton{
+    background-color: rgba(255, 255, 255, 0.2);
+    width: 100%;
+    text-align: center;
+
+    padding: 0.5rem 0;
+
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+}
+
+.sendButton:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media (min-width: 1080px) {
+    .label{
+        font-size: 18px;
+    }
+    
+    .input{
+        font-size: 16px;
+    }
+    
+    .textarea{
+        font-size: 16px;
+    }
+    
+    .fileInpunt{
+        font-size: 16px;
+    }
+  }

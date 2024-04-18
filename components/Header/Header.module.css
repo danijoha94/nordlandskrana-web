@@ -7,6 +7,10 @@
   padding: 1rem 1.5rem 2rem 1.5rem;
 }
 
+.headerLogoHide{
+  visibility: hidden;
+}
+
 .navigation {
   color: whitesmoke;
 
@@ -22,16 +26,21 @@
   height: 100%;
 
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 4rem;
-  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+}
+.navigationLink:nth-child(2){
+  margin: 0 4px;
 }
 
 .navigationLink:hover {
   border-color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .navigationLink[data-active="true"] {
   border-color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .desktopMenu {
@@ -50,6 +59,6 @@
     grid-template-columns: auto 1fr;
 
     background-color: rgba(255, 255, 255, 0.1);
-    border-radius: 4rem;
+    border-radius: 8px;
   }
 }

@@ -21,8 +21,8 @@ export default function NkIcon(props: Props) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50 50"
-        width="2rem"
-        height="2rem"
+        width="1.5rem"
+        height="1.5rem"
       >
         <path
           fill="whitesmoke"
@@ -37,8 +37,8 @@ export default function NkIcon(props: Props) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 50 50"
-        width="2rem"
-        height="2rem"
+        width="1.5rem"
+        height="1.5rem"
       >
         <path
           fill="whitesmoke"
